@@ -74,3 +74,4 @@ export default function Home() {
     </div>
   );
 }
+<footer>Lohana Maria - 2023.2</footer>
