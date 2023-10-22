@@ -7,6 +7,10 @@ export default function ToDo() {
   const [artists, setArtists] = useState([]);
   const [artistName, setArtistName] = useState("");
 
+  useEffect(() => {
+    localStorage.setItem("artistsList", JSON.stringify(artists));
+  }, [artists]);
+
   const addUserName = (e) => {
     e.preventDefault();
     if (userName.trim() !== "") {
