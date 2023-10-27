@@ -9,9 +9,6 @@ export default function ToDo() {
 
   const listaLocalStorage = JSON.parse(localStorage.getItem("Lista"));
   const [id, setId] = useState[listaLocalStorage.length - 1]?.id + 1);]
-  const [artist, setArtists] 
-const [lista, setLista] = useState(listaLocalStorage || []);
-
   
   useEffect(() => {
     localStorage.setItem("artistsList", JSON.stringify(artists));
